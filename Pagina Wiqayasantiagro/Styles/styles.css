@@ -1,0 +1,203 @@
+@font-face{
+    font-family: carolingia;
+    src: url(../tipografia/carolingia.ttf);
+}
+@font-face {
+    font-family: Abel;
+    src: url(../tipografia/Abel-Regular.ttf);
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #b2b1b153;
+}
+header{
+    position: fixed;
+    width: 100%;
+}
+.logohead{
+    width: 50%;
+}
+.logohead:hover{
+    filter: brightness(110%);
+    cursor: pointer;
+}
+.navbar-toggler{
+    border-color: #801810;
+}
+.nav-item{
+    width: 176px;
+    height: 53px;
+}
+.nav-link{
+    font-family: Abel;
+    color: #ffff;
+    background-color: #801810 !important;
+
+}
+.nav-link:hover{
+   background-color: #B21F1A !important; 
+   color: #fff ;
+}
+
+.section1{
+    background-image: url(../img/stopxd.jpg);
+    max-height: 500vh;
+    min-height: 100vh;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.section2{
+    background-image: url(../img/tokionoche.jpg);
+    
+    max-height: 200vh;
+    min-height: 150vh;
+   background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.section3{
+    background-image: url(../img/motomo.jpg);
+    max-height: 200vh;
+    min-height: 110vh;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#cont{
+    background-color: #64636399 !important;
+    border-radius: 15px;
+    max-width: 530px !important;
+    min-width: 400px !important;
+    max-height: 630px;
+    min-height: 530px;
+}
+.titulo1{
+    color: #801810;
+    font-size: 50px;
+    font-family: Abel ;
+}
+.parrafo1{
+    text-align: justify;
+    font-family: Abel;
+    font-size: 25px;
+    color: #fff;
+}
+.parrafo2{
+    text-align: justify;
+    font-family: Abel;
+    font-size: 25px;
+    color: #fff;
+}
+.titucont{
+    width: 100%;
+    
+}
+.titutrin{
+    color: #fff;
+    font-family: carolingia;
+    font-size: 40px;
+    margin: 0;
+    
+}
+#contimg{
+    
+    min-height: 350px;
+    max-height: 550px;
+}
+#textyo{
+    color: #fff;
+    font-family: Abel;
+}
+#contyo{
+    
+    max-width: 250px;
+}
+#contnaje{
+    max-width: 250px;
+}
+#btnxd{
+    height: 100vh;
+}
+#btnzy{
+    color: white;
+    padding: 1em 5em;
+    border-radius: 4px;
+    background-color: rgba(128, 24, 16, 0.8);
+    font-family: carolingia;
+    font-size: 40px;
+}
+.subtxt{
+    font-family: Carolingia;
+    color: #fff;
+    font-size: 40px;
+}
+.subtxt:hover{
+    color: #646262;
+}
+.chimbilin{
+    font-family: Abel;
+    color: #B21F1A;
+    
+}
+.card-title{
+    font-family: Carolingia;
+    color: #B21F1A;
+    font-size: 30px;
+}
+.card-text{
+    font-family: Abel;
+    font-size: 18px;
+}
+#btnzy:hover{
+    background-color: #941713c7;
+}
+footer{
+    background-color: #b2b1b153;
+}
+.logopie{
+    width: 50%;
+}
+.logopie:hover{
+    filter: brightness(110%);
+}
+.tituconpie{
+    font-family: Abel;
+    color: #B21F1A;
+}
+.redtext{
+    font-family: Abel;
+    color: #B21F1A;
+}
+.redcont{
+    display: flex;
+}
+.icon{
+    
+    width: 33%;
+}
+.icon:hover{
+    filter: brightness(120%);
+}
+.numcont{
+    font-family: Abel;
+    font-size: 18px;
+}
+i:hover{
+    cursor: pointer;
+    color: #B21F1A;
+}
+b:hover{
+    cursor: pointer;
+    color: #B21F1A;
+}
+.grupo2{
+    background-color: rgb(120, 120, 120);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-family: Abel;
+}
